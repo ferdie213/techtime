@@ -1,0 +1,115 @@
+.footer-container {
+  background-color: #000f24;
+}
+
+.footer-logo {
+  font-family: "Sweet Exprience";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.footer-logo.txt {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.footer-sub-header {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.88rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.footer-link {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.88rem;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+input {
+  display: block;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin: 0.9vw 0;
+  border-top: 1px solid #054fb3;
+  border-bottom: 1px solid #054fb3;
+  border-left: 1px solid #054fb3;
+  border-right: 0px;
+  background-color: #2a2a2b;
+  width: 50%;
+  height: 2.4rem;
+}
+
+.input-button {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  text-transform: capitalize;
+  height: 2.4rem;
+  margin: 0.9vw 0;
+  background-color: #054fb3;
+  color: #ffffff;
+  border: 0px;
+}
+
+@media (max-width: 768px) {
+  .footer-logo {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+
+  .footer-logo.txt {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .footer-sub-header {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+
+  .footer-link {
+    font-size: .9rem;
+    line-height: 1.3rem;
+  }
+
+  input {
+    display: block;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    margin: 0.9vw 0;
+    border-top: 1px solid #054fb3;
+    border-bottom: 1px solid #054fb3;
+    border-left: 1px solid #054fb3;
+    border-right: 0px;
+    background-color: #2a2a2b;
+    width: 50%;
+    height: 2.4rem;
+  }
+
+  .input-button {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-transform: capitalize;
+    height: 2.4rem;
+    margin: 0.9vw 0;
+  }
+}

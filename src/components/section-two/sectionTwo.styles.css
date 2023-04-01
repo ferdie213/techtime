@@ -1,0 +1,220 @@
+.section-two-container {
+  background-color: #f8f9fc;
+  /* position: absolute; */
+}
+
+.section-two-flex {
+  padding: 1.6rem;
+}
+
+.img-bg {
+  background-image: url("../../../public/bgimg.png");
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.section-two-h2 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3rem;
+  text-transform: capitalize;
+  color: #000f24;
+  padding: 2rem;
+}
+
+.section-two-h3 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.38rem;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.section-two-p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  text-transform: capitalize;
+  color: #a2a2a2;
+  padding: 0 2rem;
+}
+
+.section-two-p-2 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.75rem;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.btn-section-two {
+  width: 10rem;
+  height: 3.4rem;
+  background-color: #004db3;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.flex-class {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.section-two-big-box {
+  width: 15rem;
+  height: 15rem;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.section-two-box {
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.section-two-margin-left {
+  margin-left: 5rem;
+}
+
+.small-box {
+  width: 2rem;
+  height: 2rem;
+  background: rgba(63, 169, 106, 0.2);
+  border-radius: 4px;
+  padding: 0.2rem 0.55rem;
+  margin: 1.2rem 0 1.2rem 1rem;
+}
+
+.small-box-txt {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  text-transform: capitalize;
+  color: #000f24;
+  margin: 1.6rem 0;
+}
+
+.sec-two-small-img {
+  max-width: 280px;
+}
+
+.sec-two-big-img {
+  max-width: 450px;
+}
+
+.girl-img {
+  max-width: 400px;
+}
+
+.color-box {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 2px;
+  }
+
+  .section-two-h2 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    text-transform: capitalize;
+    color: #000f24;
+  }
+
+  .section-two-h3 {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .section-two-p-2 {
+    font-size: 0.5rem;
+    line-height: 0.9rem;
+  }
+  .section-two-box {
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 8px;
+  }
+
+  .section-two-big-box {
+    width: 9rem;
+    height: 12.5rem;
+  }
+
+  .small-box-txt {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+    text-transform: capitalize;
+    color: #000f24;
+    margin: 0.5rem 0;
+  }
+
+  .sec-two-small-img {
+    max-width: 150px;
+    width: 100%;
+  }
+
+  .sec-two-big-img {
+    max-width: 250px;
+    width: 60%;
+  }
+
+  .girl-img {
+    max-width: 380px;
+    width: 100%;
+  }
+
+  .color-box {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .btn-section-two {
+    width: 5rem;
+    height: 1.68rem;
+    font-size: 8px;
+    line-height: 11px;
+  }
+  .tiny-img {
+    width: 7px;
+    height: 7px;
+  }
+
+  .small-box {
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+    padding-bottom: 23px;
+    padding-left: 5px;
+    margin: auto;
+  }
+
+  .img-bg {
+    background-image: url("../../../public/bgimg.png");
+    height: 50%; /* You must set a specified height */
+    /* max-width: 300px; */
+  }
+  
+}

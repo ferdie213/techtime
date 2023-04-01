@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import HeaderSection from "./components/header/Header.jsx";
+import { SectionTwo } from "./components/section-two/SectionTwo.jsx";
+import { Navbar } from "./components/navbar/Navbar.jsx";
+import { CardList } from "./components/card-list/card-list";
+import { SectionThree } from "./components/section-three/SectionThree.jsx";
+import { FAQ } from "./components/FAQ/FAQ.jsx";
+import { Footer } from "./components/footer/Footer.jsx";
+
+import { courses } from "./components/data.js";
+import { testimonies } from "./components/data.js";
+
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <HeaderSection />
+      <SectionTwo />
+      <CardList courses={courses} testimonies={testimonies} />
+      <SectionThree />
+      <FAQ />
+      <Footer />
     </div>
   );
 }

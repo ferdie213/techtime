@@ -1,0 +1,141 @@
+.card-list-container {
+  background-color: #f8f9fc;
+}
+
+.card-list-header {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 4.3rem;
+  text-transform: capitalize;
+  text-align: center;
+  color: #000f24;
+}
+
+.card-list-sub-header {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.75rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #a2a2a2;
+  margin: auto;
+  width: 50%;
+}
+
+.link-list-container {
+  margin: auto;
+  width: 50%;
+}
+
+.link-list {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #a1a1a1;
+  text-decoration: none;
+}
+
+.active {
+  color: #004db3;
+}
+
+.card-list {
+  width: 98%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+card-list-testimonial {
+  width: 98%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.btn-container {
+  margin: auto;
+  width: 20%;
+}
+
+.btn-card-list {
+  padding: 0.9rem 1.8rem;
+  gap: 10px;
+  /* position: absolute; */
+  width: 209px;
+  height: 54px;
+  background: #004db3;
+  color: white;
+  border-radius: 4px;
+  /* margin-left: 1.5rem; */
+}
+
+@media (max-width: 768px) {
+  .card-list {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.75rem;
+  }
+
+  card-list-testimonial {
+    width: 80%;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+  .card-list-header {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin: auto;
+    width: 70%;
+  }
+
+  .card-list-sub-header {
+    font-size: 0.5rem;
+    line-height: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #a2a2a2;
+    margin: auto;
+    width: 70%;
+  }
+
+  .link-list-container {
+    margin: auto;
+    width: 80%;
+  }
+
+  .link-list {
+    font-size: 0.5rem;
+    line-height: 0.68rem;
+  }
+
+  .star-style {
+    width: 100%;
+    max-width: 5px;
+  }
+
+  .btn-container {
+    width: 40%;
+  }
+
+  .btn-card-list {
+    padding: 7px 13px;
+    gap: 5px;
+    width: 83px;
+    height: 27px;
+    font-size: 8px;
+    line-height: 11px;
+  }
+}

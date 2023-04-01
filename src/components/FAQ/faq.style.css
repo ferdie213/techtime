@@ -1,0 +1,98 @@
+.faq-container {
+  background-color: #ffffff;
+}
+
+.faq-header {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.faq-sub-header {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #a2a2a2;
+  margin: auto;
+  width: 45%;
+}
+
+.faq-sub-title {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-transform: capitalize;
+  color: #004db3;
+}
+
+.faq-content {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+  margin: auto;
+  width: 70%;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.faq-sub-title-closed {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.faq-closed {
+  width: 70%;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 0.6rem;
+}
+
+@media (max-width: 768px) {
+  .faq-header {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    /* margin: auto; */
+    width: 90%;
+  }
+
+  .faq-sub-header {
+    font-size: 0.5rem;
+    line-height: 0.9rem;
+    margin: auto;
+    width: 70%;
+  }
+
+  .faq-sub-title {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .faq-content {
+    font-size: 0.5rem;
+    line-height: 0.9rem;
+  }
+
+  .faq-sub-title-closed {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+}

@@ -1,0 +1,159 @@
+.top-container {
+  background-color: #ccdbf0;
+  /* margin: 1rem; */
+}
+
+.first-header-section {
+  background-color: #004db3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* padding: 1rem; */
+}
+
+.second-header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+}
+
+.bgImg {
+  background-image: url("../../../public/bgimg.png");
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.width-size {
+  width: 45%;
+}
+
+.header-button-style {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-transform: capitalize;
+  color: #004db3;
+  background-color: #fff;
+}
+
+.header-button-style-white {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.header-img-style {
+  width: 100%;
+}
+
+.stripe-img {
+  width: 3rem;
+}
+
+.zoom-img {
+  width: 4rem;
+}
+
+.drop-img {
+  width: 5.3rem;
+}
+
+h2 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  text-transform: capitalize;
+  color: #e7e7e7;
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .first-header-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second-header-section {
+    justify-content: space-around;
+    width: 98%
+    /* padding: 1rem 0; */
+  }
+
+  .second-header-section-mobo-width {
+    width: 18%
+  }
+
+  .width-size {
+    width: 100%;
+  }
+
+  .header-img-style {
+    width: 100%;
+    max-width: 330px;
+  }
+
+  .bgImg {
+    background-image: url("../../../public/bgimg.png");
+    height: 50%; /* You must set a specified height */
+    max-width: 320px;
+  }
+
+  .stripe-img {
+    width: 1.2rem;
+  }
+
+  .zoom-img {
+    width: 1.6rem;
+  }
+
+  .drop-img {
+    width: 2rem;
+  }
+
+  h2 {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.5rem;
+    line-height: 0.8rem;
+    text-transform: capitalize;
+    text-align: center;
+    color: #e7e7e7;
+    padding: 0 2rem;
+  }
+
+}
